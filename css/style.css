@@ -38,6 +38,7 @@ h1{
 	text-align: center;
 	text-transform: uppercase;
 	padding:0;
+	margin:50px 0;
 }
 
 h1 span{
@@ -170,7 +171,7 @@ h1 span:nth-child(odd){
 /*		Progresses   */
 .progress_wrap{
 	width:90%;
-	margin:100px auto 40px;
+	margin:50px auto 40px;
 }
 .progress_bar{
 
@@ -211,6 +212,7 @@ ul.task_list{
 	background:#EAEBEC;
 	padding:5px 10px;
 	margin: 10px 0;
+	cursor: move;
 	border-top:thick solid #636268;
 }
 .item p{

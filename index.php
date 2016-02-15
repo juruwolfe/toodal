@@ -64,14 +64,14 @@
         </section>
         <section class="list ongoing">
             <h2 class="section_title">Ongoing tasks</h2>
-            <ul class="task_list">
+            <ul class="task_list" id="sortable">
                 <?php 
                     if ($result->num_rows > 0) {
                         // output data of each row
                         while($row = $result->fetch_assoc()) {
                             echo 
-                            "<li class='item'>" .
-                                "<p class='number " . $row[""] . "'>" . $row["points"] . "</p>" . 
+                            "<li class='item ". $row["type_char"] . "'>" .
+                                "<p class='number'>" . $row["points"] . "</p>" . 
                                 "<p class='task'>" . $row["task"] . "</p>" .
                                 "<p class='date'>" . $row["timestamp"] . "</p>" .
                             "</li>";
@@ -93,7 +93,8 @@
         </section>
 
         <script src="js/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/main.js?v=2"></script>
     </body>
 
     <?php $conn->close(); ?> 

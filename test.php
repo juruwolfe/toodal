@@ -46,9 +46,19 @@
         </section>
         <section class="list ongoing">
             <h2 class="section_title">Ongoing tasks</h2>
-            <ul class="task_list">
+            <ul class="task_list" id="sortable">
                 <li class="item">
                     <p class="number">2</p>
+                    <p class="task">This is a test task I heard</p>
+                    <p class="date">Feb. 3, 2016</p>
+                </li>
+                <li class="item">
+                    <p class="number">4</p>
+                    <p class="task">This is a test task I heard</p>
+                    <p class="date">Feb. 3, 2016</p>
+                </li>
+                <li class="item">
+                    <p class="number">1</p>
                     <p class="task">This is a test task I heard</p>
                     <p class="date">Feb. 3, 2016</p>
                 </li>
@@ -57,14 +67,10 @@
 
         <section class="list completed">
             <h2 class="section_title"></h2>
-            <div class="item">
-                <p class="number"></p>
-                <p class="task"></p>
-                <p class="date"></p>
-            </div>
         </section>
 
         <script src="js/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <script src="js/main.js"></script>
     </body>
     
