@@ -1,0 +1,10 @@
+[14-Feb-2016 16:01:46 America/Detroit] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/juruwolf/public_html/toodal/index.php on line 16
+[14-Feb-2016 16:01:46 America/Detroit] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/juruwolf/public_html/toodal/index.php on line 18
+[14-Feb-2016 16:01:49 America/Detroit] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/juruwolf/public_html/toodal/index.php on line 16
+[14-Feb-2016 16:01:49 America/Detroit] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/juruwolf/public_html/toodal/index.php on line 18
+[14-Feb-2016 16:02:22 America/Detroit] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/juruwolf/public_html/toodal/index.php on line 16
+[14-Feb-2016 16:02:22 America/Detroit] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/juruwolf/public_html/toodal/index.php on line 18
+[14-Feb-2016 16:03:35 America/Detroit] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/juruwolf/public_html/toodal/index.php on line 16
+[14-Feb-2016 16:03:35 America/Detroit] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/juruwolf/public_html/toodal/index.php on line 18
+[14-Feb-2016 16:06:10 America/Detroit] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/juruwolf/public_html/toodal/index.php on line 16
+[14-Feb-2016 16:06:10 America/Detroit] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/juruwolf/public_html/toodal/index.php on line 18

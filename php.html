@@ -1,0 +1,35 @@
+<?php
+    $servername = "localhost";
+    $username = "juruwolf_jwolfe";
+    $password = "Geffrey1!";
+    $dbname = "juruwolf_toodal";
+
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+
+    $sql = "SELECT * FROM list";
+    $result = $conn->query($sql);
+?> 
+
+<?php 
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            echo 
+            "<div class='item'>" .
+                "<p class='number'>" . $row["points"] . "</p>" . 
+                "<p class='task'>" . $row["task"] . "</p>" .
+                "<p class='date'>" . $row["timestamp"] . "</p>" .
+            "</div>";
+        }
+    } else {
+        echo "<p class='none'>No tasks!</p>";
+    }
+?>
+
+<?php $conn->close(); ?> 
